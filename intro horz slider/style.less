@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Playfair+Display');
+@import "slick";
+@import "slick-theme";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+	background-color: #000;
+	width: 1920px;
+    height: 1080px;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+    padding-top: 26px;
+    padding-left: 33px;
+}
+
+.header {
+	display: flex;
+    padding-bottom: 292px;
+	&__logo {
+        font-family: 'Open Sans', sans-serif;
+        color: rgba(255, 255, 255, 0.87);
+        font-size: 36px;
+        font-weight: 600;
+    }
+    &__nav {
+        margin-left: 1280px;
+    }
+    &__list {
+        display: inline-block;
+        margin-top: 22px;
+        padding-right: 30px;
+    }
+    &__link {
+        font-family: 'Open Sans', sans-serif;
+        color:  rgba(255, 255, 255, 0.87);
+        font-size: 14px;
+        font-weight: 600; 
+    }
+}
+
+.main {
+    &__title {
+        font-family: 'Playfair Display', serif;;
+        color: rgba(255, 255, 255, 0.87);
+        font-size: 80px;
+        font-weight: 400;
+        text-align: center;
+        transform: scaleY(1.0011);
+        width: 1140px;
+        margin-left: 396px;
+        padding-bottom: 30px;
+    }
+    &__dscr {
+        font-family: 'Open Sans', sans-serif;
+        color: rgba(255, 255, 255, 0.87);
+        font-size: 29.97px;
+        font-weight: 300;
+        line-height: 47.946px;
+        text-align: center;
+        transform: scaleY(1.0011);
+        width: 760px;
+        margin-left: 583px;
+        padding-bottom: 40px;
+    }
+    &__btn {
+        background-color: #eecd31;
+        width: 184px;
+        height: 57px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgba(255, 255, 255, 0.87);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 36px;
+        border-radius: 30%;
+        margin-left: 836px;
+        
+    }
+}

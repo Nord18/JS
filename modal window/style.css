@@ -1,0 +1,25 @@
+div {
+	width: 500px;
+	height: 500px;
+	background-color: #fff;
+	margin: 0 auto;
+	display: none;
+	text-align: center;
+	line-height: 500px;
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+button {
+	margin-left: 650px;
+}
+
+.close {
+	position: absolute;
+	left: 220px;
+	top: 90px;
+}
+
+body {
+	background-color: #FFF;
+}

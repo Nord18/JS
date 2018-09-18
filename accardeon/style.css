@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+	background-color: #f6704b;
+	max-width: 1366px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px;
+}
+
+.cont {
+	
+}
+
+.cont__item {
+	width: 380px;
+	height: 100px;
+	padding-left: 17px;
+	padding-top: 24px;
+}
+
+.cont__item:nth-child(1) {
+	background-color: #620808;
+}
+
+.cont__item:nth-child(3) {
+	background-color: #a53f3f;
+}
+
+.cont__item:nth-child(5) {
+	background-color: #f4ce74;
+}
+.cont__item:nth-child(7) {
+	background-color: #ffe9c1;
+}
+.cont__item:nth-child(9) {
+	background-color: #d5441c;
+	
+}
+
+.cont__img {
+	float: left;
+}
+
+.cont__text {
+	font-size: 24px;
+	font-family: 'Raleway';
+	font-weight: 400;
+	margin-left: 55px;
+	margin-top: 10px;
+}
+
+.cont__dscr {
+	width: 380px;
+	height: 166px;
+	background-color: #620808;
+	font-size: 18px;
+	font-family: 'Raleway';
+	font-weight: 400;
+	display: none;
+}
+
+.cont__dscr:nth-child(2) {
+	background-color: #620808;
+}
+
+.cont__dscr:nth-child(4) {
+	background-color: #a53f3f;
+}
+
+.cont__dscr:nth-child(6) {
+	background-color: #f4ce74;
+}
+
+.cont__dscr:nth-child(8) {
+	background-color: #ffe9c1;
+}
+
+.cont__dscr:nth-child(10) {
+	background-color: #d5441c;
+}
