@@ -5,4 +5,5 @@
 <li><a href="https://nord18.github.io/JS/intro horz slider/">Intro Horz Slider</a></li>
 <li><a href="https://nord18.github.io/JS/modal window/">Modal Window</a></li>
 <li><a href="https://nord18.github.io/JS/works slider/">Works Slider</a></li>
+<li><a href="https://nord18.github.io/JS/masonry/">Masonry</a></li>
 </ul>
